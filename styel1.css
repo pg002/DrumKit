@@ -1,0 +1,37 @@
+body{
+    background-image: url('ImageBackground/music\ background.jpg');
+    background-size:cover;
+    font-size:15px;
+    font-family:sans-serif;
+    align-items:center;
+}
+.keys{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.key{
+    border:5px solid chocolate;
+    border-radius:5px;
+    padding:10px;
+    margin:200px 10px 200px 10px;
+    width:100px;
+    text-align:center;
+    font-size:1.5rem;
+    color:white;
+    transition:all 0.6s;   
+}
+.playing{
+    transform:scale(2);
+    border-color: saddlebrown;
+    box-shadow:0px 0px 10px saddlebrown;
+
+}
+kbd{
+    display:block;
+    font-size:40px;
+
+}
+.sound{
+    color:black;
+}
